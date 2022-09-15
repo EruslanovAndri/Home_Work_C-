@@ -4,18 +4,12 @@
 Console.Clear();
 Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int size = n;
-int i = 0;
-int temp = 0;
-while (i < size)
+for (int i = 1; i <= n; i++)
 {
-    if (n % 2 == 0)
+    if (i % 2 == 0)
     {
-        Console.Write(n + " ");
+        Console.Write(i + " ");
     }
-    n = n - 1;
-    i++;
 }
 
-// Work но не могу понять как развернуть ответ.
-// Прошу подсказвть в чем ошибка
+// Work 
