@@ -12,20 +12,18 @@ Console.WriteLine("Введите второе число:");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число:");
 int c = Convert.ToInt32(Console.ReadLine());
-int size = 3;
 int i = 0;
 int max = a;
 
-while (i < size)
+
+if (b >= max)
 {
-    if (b >= max)
-    {
-        max = b;
-    }
-    if (c >= max)
-    {
-        max = c;
-    }
-    i++;
+    max = b;
 }
+if (c >= max)
+{
+    max = c;
+}
+i++;
+
 Console.WriteLine(max);
