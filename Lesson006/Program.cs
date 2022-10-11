@@ -139,46 +139,6 @@ Console.Clear();
 // 2 -> 10
 // 2 -> 10
 
-// Console.WriteLine("Fill a number:");
-// int num = Convert.ToInt32(Console.ReadLine());
-// int div = 2;
-// int result = 0;
-// int result1 = 0;
-// int finalResult = 0;
-// string num2 = String.Empty;
-// while(num > 1)
-// {
-//     result = num / div;
-//     result1 = result * div;
-//     finalResult = num - result1;
-//     num2 += Convert.ToString(finalResult);
-//     num = num - result;
-// }
-//  Console.Write(num2);
-
-// Console.WriteLine("Введите число");
-// int num = Convert.ToInt32(Console.ReadLine());
-// string res = "";
-// while (num > 0)
-// {
-//     res = res + num % 2;
-//     num = num / 2;
-// }
-
-// string Reverse(string res)
-
-// {
-//     string newRes = "";
-//     for (int i = res.Length - 1; i >= 0; i--)
-//     {
-//         newRes = newRes + res[i];
-
-//     }
-//     return newRes;
-
-// }
-// string result = Reverse(res);
-// Console.WriteLine(result);
 
 Console.Write("Введите число: ");
 int x = Convert.ToInt32(Console.ReadLine());
@@ -187,6 +147,7 @@ string y ="";
 while (x > 0)
 {
     y  = Convert.ToString(x % 2) + y;
+    Console.WriteLine(y);
     x /= 2;
 }
 Console.WriteLine(y);
