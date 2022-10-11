@@ -51,18 +51,22 @@ int FindExactElement(int[,] matrix, int row, int column)
         {
             if (row == i && column == j)
             {
-                element = martix[i,j];
-            } 
+                element = martix[i, j];
+            }
+            
         }
+
     }
     return element;
+    
 }
 
 FillArrayMatrix(martix);
 PrintMatrix(martix);
-int findElement = FindExactElement(martix,row,column);
+int findElement = FindExactElement(martix, row, column);
 Console.WriteLine(findElement);
 
 
-// work
+
+// Work
 
