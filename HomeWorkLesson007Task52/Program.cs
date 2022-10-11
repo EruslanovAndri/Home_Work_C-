@@ -13,7 +13,6 @@ int rows = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите кол-во столбцов: ");
 int colunms = Convert.ToInt32(Console.ReadLine());
 int[,] martix = new int[rows, colunms];
-
 void FillArrayMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -25,7 +24,6 @@ void FillArrayMatrix(int[,] matrix)
         }
     }
 }
-
 void PrintMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -37,7 +35,6 @@ void PrintMatrix(int[,] matrix)
         Console.WriteLine();
     }
 }
-
 void FindArithmeticalMean(int[,] matrix)
 {
   
@@ -52,7 +49,6 @@ void FindArithmeticalMean(int[,] matrix)
     }
 
 }
-
 FillArrayMatrix(martix);
 PrintMatrix(martix);
 FindArithmeticalMean(martix);
