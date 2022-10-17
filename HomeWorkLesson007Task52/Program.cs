@@ -45,7 +45,7 @@ void FindArithmeticalMean(int[,] matrix)
         {
             res = res + martix[j,i];
         }
-        Console.WriteLine($"Сумма чисел в каждом столбце = {res / rows} ");
+        Console.WriteLine($"Сумма чисел в каждом столбце = {Math.Round(res / rows,2)} ");
     }
 
 }
